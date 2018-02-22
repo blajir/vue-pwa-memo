@@ -1,6 +1,12 @@
-# vue-memo
+# vue-pwa-memo
 
-> A Vue.js project
+> TodoアプリケーションのVue-PWA
+
+## 概要
+vue-pwa-boilerplateでTodoアプリケーションをPWA化したものです。
+
+## デモページ
+
 
 ## Build Setup
 
