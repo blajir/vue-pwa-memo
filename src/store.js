@@ -78,13 +78,13 @@ const mutations = {
    * ローカルストレージにTodoを保存する
    */
   saveTodo(state) {
-    localStorage.setItem('todos', JSON.stringify(state.todos));
+    localStorage.setItem('pwa-todos', JSON.stringify(state.todos));
   },
   /**
    * ローカルストレージの値を読み込む
    */
   loadTodo(state) {
-    state.todos = JSON.parse(localStorage.getItem('todos'));
+    state.todos = JSON.parse(localStorage.getItem('pwa-todos'));
     if(!state.todos) {
       state.todos = [
         {
