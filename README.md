@@ -6,7 +6,7 @@
 vue-pwa-boilerplateでTodoアプリケーションをPWA化したものです。
 
 ## デモページ
-
+[https://blajir.github.io/vue-pwa-memo/dist/](https://blajir.github.io/vue-pwa-memo/dist/#/)
 
 ## Build Setup
 
