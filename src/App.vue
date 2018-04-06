@@ -27,8 +27,11 @@ export default {
         'completed': false,
         'isButtonShow': false,
       }
-      this.$store.commit('addMemo', obj);
-      this.$store.commit('saveTodo');
+      if (obj.memo !== '') {
+        this.$store.commit('addMemo', obj);
+        this.$store.commit('saveTodo');
+      }
+      return false;
     },
   },
 }
