@@ -4,6 +4,7 @@
       type="text"
       placeholder="Todoを追加"
       v-model="memo"
+      @keyup.enter="$emit('addMemo', memo)"
       class="footer__input"
     >
     <button
